@@ -1,0 +1,95 @@
+@media (min-width:600px) and (max-width:1024px){
+
+*{
+    font-size: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.nav-bar .nav{
+    display: flex;
+}
+.nav-bar .nav li{
+    margin : 0 5px;
+    font-size: 15px;
+}
+.nav-bar .right{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar .right .search{
+    height: 2rem;
+    font-size: 15px;
+    padding :1px;
+}
+.main .container .top h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.sec3 .container .row{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:599px){
+    *{
+        font-size: 15px;
+    }
+
+.nav-bar{
+    width: 100vw;
+    padding: 4% 1%;
+}
+.nav-bar .nav{
+    display: flex;
+}
+.nav-bar .nav li{
+    margin : 0 2px;
+    font-size: 12px;
+}
+.nav-bar .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-bar .right .search{
+    height: 4vh;
+}
+.main .container .top h1{
+    text-align: center;
+    font-size: 150%;
+    font-weight: 400;
+}
+.nav-bar .right .button{
+    height: 5vh;
+    border: none;
+    padding : 0 2rem;
+    margin: 2px 8px;
+}
+.main .container .down .colz{
+    font-size: 30px;
+}
+.sec3 .filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 .container .row{
+    grid-template-columns: repeat(1, 1fr);
+    padding :0 10%;
+    }
+
+}
